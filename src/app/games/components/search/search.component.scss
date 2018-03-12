@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  margin: 1.7em 0;
+}
+
+input {
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  color: #ABC6D1;
+  padding: 10px;
+  width: 100%;
+  &:focus {
+    border-color:  #ABC6D1;
+    box-shadow: none;
+  }
+}
+.form-group {
+  position: relative;
+}
+
+i {
+  color: #999;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,59 @@
+{
+  "_total": 2,
+  "_links": {
+    "self": "https://api.twitch.tv/kraken/games/top?limit=100",
+    "next": "https://api.twitch.tv/kraken/games/top?limit=100&offset=100"
+  },
+  "top":[
+    {
+      "game": {
+        "name": "Fortnite",
+        "popularity": 171516,
+        "_id": 33214,
+        "giantbomb_id": 37030,
+        "box": {
+          "large": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-272x380.jpg",
+          "medium": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-136x190.jpg",
+          "small": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-52x72.jpg",
+          "template": "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-{width}x{height}.jpg"
+        },
+        "logo": {
+          "large": "https://static-cdn.jtvnw.net/ttv-logoart/Fortnite-240x144.jpg",
+          "medium": "https://static-cdn.jtvnw.net/ttv-logoart/Fortnite-120x72.jpg",
+          "small": "https://static-cdn.jtvnw.net/ttv-logoart/Fortnite-60x36.jpg",
+          "template": "https://static-cdn.jtvnw.net/ttv-logoart/Fortnite-{width}x{height}.jpg"
+        },
+        "_links": {},
+        "localized_name": "Fortnite",
+        "locale": ""
+      },
+      "viewers": 168245,
+      "channels": 10339
+    },
+    {
+      "game": {
+        "name": "League of Legends",
+        "popularity": 124089,
+        "_id": 21779,
+        "giantbomb_id": 24024,
+        "box": {
+          "large": "https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-272x380.jpg",
+          "medium": "https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-136x190.jpg",
+          "small": "https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-52x72.jpg",
+          "template": "https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-{width}x{height}.jpg"
+        },
+        "logo": {
+          "large": "https://static-cdn.jtvnw.net/ttv-logoart/League%20of%20Legends-240x144.jpg",
+          "medium": "https://static-cdn.jtvnw.net/ttv-logoart/League%20of%20Legends-120x72.jpg",
+          "small": "https://static-cdn.jtvnw.net/ttv-logoart/League%20of%20Legends-60x36.jpg",
+          "template": "https://static-cdn.jtvnw.net/ttv-logoart/League%20of%20Legends-{width}x{height}.jpg"
+        },
+        "_links": {},
+        "localized_name": "League of Legends",
+        "locale": ""
+      },
+      "viewers": 122433,
+      "channels": 2537
+    }
+  ]
+}

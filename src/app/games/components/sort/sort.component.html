@@ -1,0 +1,13 @@
+<span>Filtrar por:</span>
+<ul>
+  <li *ngFor="let option of options" (click)="setSortBy(option.value)">
+    <i [hidden]="option.value !== sortBy?.field"
+      class="fa"
+      [ngClass]="{
+        'fa-sort-amount-desc': sortBy?.direction === 'DESC',
+        'fa-sort-amount-asc': sortBy?.direction === 'ASC'
+      }"
+    ></i>
+    {{ option.label }}
+  </li>
+</ul>

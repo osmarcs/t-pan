@@ -1,0 +1,9 @@
+<figure *ngIf="game" [ngStyle]="{'background-image':'url(' + game.box?.large + ')'}">
+  <img hidden [src]="game.box.large" [alt]="game.name">
+  <figcaption>
+    <span class="title">{{ game.name}}</span>
+    <span>{{ game.viewers | number }} visualizações</span>
+    <span>{{ game.channels | number }} canais ao vivo </span>
+    <span>{{ game.popularity | number }} popularidade </span>
+  </figcaption>
+</figure>

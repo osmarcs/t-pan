@@ -1,0 +1,31 @@
+:host {
+  display: block;
+  height: 44px;
+}
+
+nav {
+  background-color: #00BCD1;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  a {
+    position: absolute;
+    cursor: pointer;
+    font-size: 2em;
+    color: #FFF;
+  }
+
+  h1 {
+    color: #FFF;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  .backButtonShow {
+    h1 {
+      padding-left: 50px;
+    }
+  }
+}

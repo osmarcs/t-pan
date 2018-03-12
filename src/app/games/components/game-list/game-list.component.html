@@ -1,0 +1,19 @@
+<pan-header [title]="titlePage"></pan-header>
+<pan-search (search)="onSearch($event)"></pan-search>
+<pan-sort (sort)="onSort($event)" [options]="sortOptions"></pan-sort>
+<div class="row">
+  <pan-game-item
+    [routerLink]="['/game', game.id]"
+    *ngFor="let game of showFilteredSorted()"
+    [game]="game"
+    class="col-4 col-lg-3"
+  ></pan-game-item>
+
+  <pan-loader [hidden]="!loadingGames"></pan-loader>
+  <div
+    infiniteScroll
+    [infiniteScrollDistance]="2"
+    [infiniteScrollThrottle]="200"
+    (scrolled)="loadMore()">
+  </div>
+</div>
